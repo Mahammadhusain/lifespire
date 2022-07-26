@@ -27,7 +27,11 @@
 10. Sign In CSS
 11. FAQ Terms & Conditions
 ----------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
+
+
 /*---------------------------------
             General Styles 
 -----------------------------------*/
@@ -105,12 +109,12 @@ h6 {
   font-weight: 700;
   line-height: 1.4;
   color: #000;
-  font-family: "Inter", sans-serif;
+  font-family: 'Hind Vadodara', sans-serif;
 }
 
 body {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Hind Vadodara', sans-serif;
   color: #666666;
 }
 
@@ -505,15 +509,15 @@ select {
 }
 
 .play-now .ripple:before {
-  -webkit-animation-delay: 0.9s;
-  animation-delay: 0.9s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
   content: "";
   position: absolute;
 }
 
 .play-now .ripple:after {
-  -webkit-animation-delay: 0.6s;
-  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
   content: "";
   position: absolute;
 }
@@ -555,7 +559,7 @@ select {
   right: 20px;
   z-index: 999;
   border-radius: 50%;
-  background: #F0F4FF;
+  background: #143751;
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.4s ease-in-out;
@@ -567,7 +571,7 @@ select {
 }
 
 .back-to-top i {
-  color: #009D94;
+  color: #ffffff;
 }
 
 /*---------------------------------
@@ -1934,11 +1938,12 @@ select {
 
 .header-wrap .header-top .header-top-left .contact-info li a, .header-wrap .header-top .header-top-left .contact-info li p {
   display: inline-block;
-  margin-left: 8px;
+  margin-left: 6px;
   margin-bottom: 0;
-  font-size: 15px;
+  font-size: 14px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  font-weight: 500;
 }
 
 .header-wrap .header-top .header-top-right .social-profile {
@@ -2406,7 +2411,7 @@ select {
     margin: 0 7px !important;
   }
   .header-wrap .navbar .navbar-nav .nav-item a {
-    font-size: 15px !important;
+    font-size: 14px !important;
   }
   .header-wrap.sticky {
     top: -50px;
@@ -2435,6 +2440,7 @@ select {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
   .header-wrap.sticky {
     top: -90px;
   }
@@ -2478,6 +2484,7 @@ select {
 }
 
 @media only screen and (max-width: 991px) {
+  
   .header-wrap .header-top .header-top-left .contact-item {
     width: 100%;
     margin: 0 0 15px;
@@ -2552,7 +2559,7 @@ select {
     padding: 10px 30px 10px;
     color: #fff;
     margin-top: 15px;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 14px;
   }
   .header-wrap .header-bottom .navbar .navbar-nav .nav-item a.btn i {
@@ -2596,6 +2603,8 @@ select {
     -ms-flex-align: center;
     align-items: center;
   }
+
+  
   .mobile-bar-wrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2631,7 +2640,8 @@ select {
   .mobile-menu a {
     width: 38px;
     height: 38px;
-    border-radius: 62% 38% 46% 54% / 60% 63% 37% 40%;
+    /* border-radius: 62% 38% 46% 54% / 60% 63% 37% 40%; */
+    border-radius: 20px 0px 20px 0px;
     text-align: center;
     background-color: #009D94;
     display: -webkit-box;
@@ -2980,7 +2990,7 @@ select {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: rgba(20, 70, 123, 0.9);
+  background-color: rgba(0, 157, 148, 0.9);
 }
 
 .breadcrumb-title {
@@ -3730,7 +3740,7 @@ select {
 
 .hero-wrap .hero-content h1 {
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 15px;
 }
 
@@ -5895,6 +5905,7 @@ select {
 }
 .pricing-card .btn:hover {
   border-color:#009D94;
+
 }
 
 .pricing-card:hover {
@@ -6482,7 +6493,7 @@ select {
 #contactForm .form-group input,
 #contactForm .form-group textarea {
   width: 100%;
-  background: transparent;
+  background: #e6fffe;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px 15px;
   border-radius: 5px;
@@ -6490,11 +6501,11 @@ select {
 
 #contactForm .form-group input:focus,
 #contactForm .form-group textarea:focus {
-  border: 1px solid rgba(0, 0, 0, 0.09);
+  border: 1px solid #143751;
 }
 
 #contactForm .form-group input {
-  height: 60px;
+  height: 40px;
 }
 
 #contactForm .form-group textarea {
@@ -6945,7 +6956,7 @@ article {
 .comment-item-wrap .comment-item .comment-author-wrap .comment-author-name .comment-date {
   display: block;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Hind Vadodara', sans-serif;
   font-weight: 400;
   line-height: 1;
   color: #666666;
@@ -7119,6 +7130,7 @@ article {
   color: rgba(255, 255, 255, 0.8);
   margin: 28px 0 25px;
   padding-right: 10px;
+  font-size: 18px;
 }
 
 .footer-wrap .footer-widget .social-profile li a {
@@ -7133,6 +7145,7 @@ article {
 
 .footer-wrap .footer-widget .footer-menu li {
   margin-bottom: 15px;
+  font-weight: 650;
 }
 
 .footer-wrap .footer-widget .footer-menu li:last-child {
@@ -7291,6 +7304,7 @@ article {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer-wrap .footer-widget .comp-desc {
     padding-right: 20px;
+    font-size: 18px;
   }
 }
 
@@ -7353,3 +7367,13 @@ article {
   background-color: #94be5d;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* Google Transalte  */
+.goog-te-combo{
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #009990;
+  color: #fff;
+
+}
