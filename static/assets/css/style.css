@@ -909,15 +909,16 @@ select {
 }
 
 .btn.style2 {
-  background-color: #143751;
-  color: #fff;
+  background-color: #fff;
+  color: #009D94;
   border-radius: 5px;
   font-weight: 700;
 }
 
 .btn.style2:after, .btn.style2:before {
   background: #009D94;
-  
+
+  color: #fff;
 }
 
 .btn.style2:hover {
@@ -5897,8 +5898,6 @@ select {
   display: block;
   width: 100%;
   border-radius: 5px;
-  background-color: #ffffff;
-  color: #143751;
   font-size: 22px;
   font-weight: 650;
 
@@ -7368,12 +7367,38 @@ article {
 }
 /*# sourceMappingURL=style.css.map */
 
+/* Google translator */
 
-/* Google Transalte  */
-.goog-te-combo{
-  padding: 5px 10px;
-  border-radius: 5px;
-  background-color: #009990;
-  color: #fff;
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
 
+}
+
+
+.goog-logo-link {
+  display: none !important;
+
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+
+}
+
+body {
+  top: 0px !important;
+
+}
+
+#google_translate_element {
+  height: 32px !important;
+  overflow: hidden !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+  padding: 6px;
+  background-color: #fff;
+  color: #143751;
+  font-weight: 650;
+  font-size: 0.8rem;
 }

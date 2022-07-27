@@ -159,7 +159,7 @@ input:checked + .slider:before {
 .theme-dark a,
 .theme-dark .select-lang .navbar-language .dropdown-toggle::before,
 .theme-dark .btn:hover {
-  color: #fff !important;
+  color: #ffff !important;
 }
 
 .theme-dark p, .theme-dark span,

@@ -20,23 +20,10 @@
   <link rel="stylesheet" href="{% static 'assets/css/dark-theme.css' %}">
 
   <!-- Google Transalte Button Start -->
-  <style>
-    .goog-te-banner-frame.skiptranslate {
-      display: none !important;
-    }
+  
+  <strong>
 
-    .goog-logo-link {
-      display: none !important;
-    }
-
-    .goog-te-gadget {
-      color: transparent !important;
-    }
-
-    body {
-      top: 0px !important;
-    }
-  </style>
+  </strong>
   <!-- Google Transalte Button End -->
 
   <title>LifeSpire - </title>
@@ -96,13 +83,15 @@
                     <span><i class="ri-map-pin-fill"></i></span>
                     <p>2767 Sunrise Street, NY 1002, USA</p>
                   </li>
+
                 </ul>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="header-top-right">
-                <div class="select-lang" id="google_translate_element"></div>
-               
+                <div id="google_translate_element">
+
+                </div>
                 <ul class="social-profile list-style style1">
                   <li>
                     <a href="https://facebook.com/">
@@ -124,6 +113,7 @@
                       <i class="ri-pinterest-line"></i>
                     </a>
                   </li>
+
                 </ul>
               </div>
             </div>
@@ -232,7 +222,7 @@
                   <a href="{% url 'allblogs' %}" class="nav-link">
                     Blogs
                   </a>
-                  
+
                 </li>
 
                 <li class="nav-item">
@@ -260,6 +250,7 @@
                 <li class="nav-item d-lg-none">
                   <a href="appointment.html" class="nav-link btn style1">Book Appointment</a>
                 </li>
+
               </ul>
               <div class="other-options md-none">
                 <div class="option-item">
@@ -268,6 +259,7 @@
                 <div class="option-item">
                   <a href="appointment.html" class="btn style1">Book Appointment</a>
                 </div>
+
 
               </div>
 
@@ -287,7 +279,7 @@
       </div>
     </header>
     <!-- Header Section End -->
-    
+
 
 
     {% block body %}
@@ -541,12 +533,11 @@
         { pageLanguage: "en" },
         "google_translate_element"
       );
+
     }
   </script>
 
-  <script
-    type="text/javascript"
-    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
   </script>
   <!-- Google Transalte End -->
 
