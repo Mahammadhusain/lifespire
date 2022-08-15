@@ -7391,12 +7391,12 @@ body {
 }
 
 #google_translate_element {
-  height: 32px !important;
+  height: 30px !important;
   overflow: hidden !important;
 }
 
 .goog-te-gadget .goog-te-combo {
-  padding: 6px;
+  padding: 4px;
   background-color: #fff;
   color: #143751;
   font-weight: 650;
