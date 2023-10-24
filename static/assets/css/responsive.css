@@ -75,7 +75,8 @@
     font-size: 14px;
   }
   .about-wrap.style1 .about-img-wrap .about-img-one {
-    max-width: 265px;
+    max-width: 237px;
+    margin-left: 38px;
   }
   .about-wrap.style1 .about-img-wrap .about-img-two {
     max-width: 225px;
@@ -176,6 +177,7 @@
   }
   .wh-wrap.style1 .wh-img-wrap .wh-img-two {
     max-width: 230px;
+    right: 3px;
   }
   .appointment-wrap.style1 .appointment-bg {
     height: 480px;
@@ -1645,7 +1647,7 @@
     top: 0;
   }
   .counter-card-wrap .counter-card .counter-text p {
-    font-size: 15px;
+    font-size: 22px;
   }
   .faq-wrap .faq-img-wrap .faq-shape {
     max-width: 350px;
