@@ -2,6 +2,11 @@ from django import forms
 from .models import Contact
 
 class ContactForm(forms.ModelForm):
+    def __init__(self, *args, **kwargs):
+        super(ContactForm, self).__init__(*args, **kwargs)
+
+        self.fields['business_type'].empty_label = "Select an option..."
+
     class Meta:
         model = Contact
         fields = "__all__"  

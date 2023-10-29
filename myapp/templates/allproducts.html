@@ -23,48 +23,21 @@
     <section class="service-wrap ptb-100">
         <div class="container">
             <div class="row justify-content-center">
+                {% for i in all_products %}
                 <div class="col-xl-4 col-lg-6 col-md-6 ">
                     <div class="service-card style1">
                         <div class="service-img">
-                            <img src="{% static 'assets/img/products/Baby Wipes 10/1 - Copy.png' %}" alt="Image">
+                            <img src="{{i.photo.url}}" alt="Image">
                             
                         </div>
                         <div class="service-info">
-                            <h3><a href="service-details.html">Baby Wipes 10</a></h3>
+                            <h3><a href="service-details.html">{{i.title}}</a></h3>
                             <p>It is a long established fact that reader will content of page when looks layout.</p>
                             <!-- <a href="service-details.html" class="link style2">Explore More</a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6">
-                    <div class="service-card style1">
-                        <div class="service-img">
-
-                            <img src="{% static 'assets/img/products/Baby Wipes 72/2 (1) - Copy.png' %}" alt="Image">
-                            
-                        </div>
-                        <div class="service-info">
-                            <h3><a href="service-details.html">Baby Wipes 72</a></h3>
-                            <p>It is a long established fact that reader will content of page when looks layout.</p>
-                            <!-- <a href="service-details.html" class="link style2">Explore More</a> -->
-                        </div>
-                    </div>
-                </div>
-               
-                
-                <div class="col-xl-4 col-lg-6 col-md-6">
-                    <div class="service-card style1">
-                        <div class="service-img">
-                            <img src="{% static 'assets/img/products/Bed Bath  Wipes 10/01 - Copy.png' %}" alt="Image">
-                            
-                        </div>
-                        <div class="service-info">
-                            <h3><a href="service-details.html">Bed Bath Wipes 10</a></h3>
-                            <p>It is a long established fact that reader will content of page when looks layout.</p>
-                            <!-- <a href="service-details.html" class="link style2">Explore More</a> -->
-                        </div>
-                    </div>
-                </div>
+                {% endfor %}
                 
                
             </div>
